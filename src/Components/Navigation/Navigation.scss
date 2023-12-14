@@ -1,0 +1,29 @@
+@import 'src/scss/variables.scss';
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  align-items: center;
+  margin-bottom: $space*2;
+
+  &__links {
+    display: flex;
+    grid-gap: $space;
+    padding: $space/4 $space*2;
+  }
+
+  &__link {
+    color: $white;
+    text-decoration: none;
+
+    &--active {
+      text-decoration: underline;
+    }
+
+    &:hover,
+    &:active {
+      color: $link-hover-color
+    }
+  }
+}
