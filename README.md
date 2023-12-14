@@ -1,4 +1,4 @@
-##Demo
+## Demo
 https://jacek-wozniak.github.io/InfoGain/
 
 To run project use:
